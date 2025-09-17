@@ -57,53 +57,6 @@ body {
 .heart:nth-child(8) { font-size: 20px; left: 80%; animation-delay: 1.5s; animation-duration: 13s; }
 .heart:nth-child(9) { font-size: 24px; left: 90%; animation-delay: 3.5s; animation-duration: 17s; }
 
-.nav-bar {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  background: var(--card-bg);
-  border-bottom: 1px solid var(--border);
-  backdrop-filter: blur(10px);
-  z-index: 100;
-  padding: 1rem 0;
-}
-
-.nav-content {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 2rem;
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-}
-
-.back-btn {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  color: var(--dark);
-  text-decoration: none;
-  font-weight: 500;
-  transition: all 0.3s ease;
-  padding: 0.5rem 1rem;
-  border-radius: 8px;
-  background: var(--glass);
-  border: 1px solid var(--border);
-}
-
-.back-btn:hover {
-  background: var(--primary);
-  color: var(--light);
-  border-color: var(--primary);
-  transform: translateX(-2px);
-}
-
-.nav-title {
-  font-size: 1.2rem;
-  font-weight: 600;
-  color: var(--dark);
-}
 
 .container {
   max-width: 1200px;
@@ -116,15 +69,15 @@ body {
 
 .header {
   text-align: center;
-  margin: 6rem 0 2rem;
+  margin: 2rem 0 2rem;
   animation: fadeInUp 1s ease-out;
 }
 
 .logo {
   width: 100%;
-  max-width: 600px;
+  max-width: 400px;
   height: auto;
-  margin: 0 auto 2rem;
+  margin: 0 auto 1.5rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -158,10 +111,10 @@ body {
 }
 
 .header p {
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: var(--gray);
   font-weight: 300;
-  max-width: 600px;
+  max-width: 500px;
   margin: 0 auto;
 }
 
@@ -176,7 +129,7 @@ body {
   background: var(--card-bg);
   border: 1px solid var(--border);
   border-radius: 20px;
-  padding: 2.5rem;
+  padding: 1.5rem;
   backdrop-filter: blur(10px);
   box-shadow: var(--shadow);
   animation: fadeInUp 0.8s ease-out;
@@ -187,10 +140,10 @@ body {
 .content-section:nth-child(2) { animation-delay: 0.4s; }
 
 .section-title {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   font-weight: 700;
   color: var(--dark);
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
@@ -211,22 +164,22 @@ body {
   background: linear-gradient(135deg, var(--glass), rgba(236, 72, 153, 0.05));
   border: 2px solid var(--primary);
   border-radius: 15px;
-  padding: 1.5rem;
+  padding: 1rem;
   margin: 1rem 0;
   text-align: center;
 }
 
 .mission-statement h3 {
   color: var(--primary);
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: 600;
-  margin-bottom: 1rem;
+  margin-bottom: 0.75rem;
 }
 
 .mission-statement p {
   color: var(--dark);
-  font-size: 1.1rem;
-  line-height: 1.7;
+  font-size: 1rem;
+  line-height: 1.6;
   font-style: italic;
 }
 
@@ -235,7 +188,7 @@ body {
   background: var(--card-bg);
   border: 1px solid var(--border);
   border-radius: 20px;
-  padding: 2rem;
+  padding: 1.5rem;
   backdrop-filter: blur(10px);
   box-shadow: var(--shadow);
   animation: fadeInUp 1s ease-out;
@@ -297,21 +250,21 @@ body {
 
 .stats-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 1.5rem;
-  margin: 1.5rem 0;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+  margin: 1rem 0;
 }
 
 .stat-item {
   text-align: center;
-  padding: 2rem;
+  padding: 1.5rem;
   background: var(--glass);
   border-radius: 15px;
   border: 1px solid var(--border);
 }
 
 .stat-number {
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 700;
   color: var(--primary);
   margin-bottom: 0.5rem;
